@@ -1,0 +1,96 @@
+/* user setting file */
+{
+    /* workbench */
+    "workbench.list.smoothScrolling": true,
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.editor.enablePreview":false,
+    "workbench.layoutControl.enabled": false,
+
+    /* windows */
+    "window.titleBarStyle": "custom",
+    "window.dialogStyle": "custom",
+    "window.commandCenter": false,
+
+    /* editor */
+    "editor.wordWrap": "on",
+    "editor.tokenColorCustomizations": {
+        "[Catppuccin Mocha]": {
+            "functions": {
+                "fontStyle": ""
+            },
+            "types": {
+                "fontStyle": "",
+            }
+        },
+    },
+    "editor.mouseWheelZoom": true,
+    "editor.fontVariations": true,
+    "editor.smoothScrolling": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontFamily": "'FiraCode Nerd font', 'FiraCode Nerd font', 'FiraCode Nerd font'",//SF Mono Light
+    "editor.fontLigatures": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.renderLineHighlight": "all",
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.bracketPairColorization.enabled": true,
+
+    /* terminal */
+    "terminal.integrated.fontSize": 20,
+    "terminal.integrated.defaultLocation":"editor", 
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.fontFamily": "FiraCode Nerd font",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorStyle": "block",
+    "terminal.integrated.fontWeightBold": 450,
+    "terminal.integrated.fontWeight": 450,
+    "terminal.integrated.suggest.enabled": true,
+
+    /* plugin windows opocity */
+    "winopacity.opacity": 240,//0-2515
+
+    /* plugin vim */
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-F>": false,
+        "<C-s>": false,
+        "<C-p>": false,
+    },
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "o"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                {
+                    "command":"workbench.action.toggleSidebarVisibility"
+                }
+            ]
+        }
+    ],
+
+    /* plugin Cmake */
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+}
