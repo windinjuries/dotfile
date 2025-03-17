@@ -1,16 +1,17 @@
 ## dotfile
-
+### fish
+copy config file: ~/.config/fish/functions/fish_prompt.fish
 ### ssh
-config file: ./.ssh/config
+copy config file: /.ssh/config/config
 
 ### vscode
-config file: user/settings.json
+copy config file: user/settings.json
 
 ### zellij
-config file: ~/.config/zellij/config.kdl
+copy config file: ~/.config/zellij/config.kdl
 
 ### tmux
-config file: ~/.tmux.conf
+copy config file: ~/.tmux.conf
 
 #### reference
 [tmux config](https://www.cnblogs.com/hongdada/p/13528984.html)
